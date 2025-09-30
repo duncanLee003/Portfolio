@@ -2,9 +2,24 @@
 <html>
 <head>
     <title>My First HTML Page</title>
+    <link rel="stylesheet" href="style.css"> <!--links to style.css-->
 </head>
 <body>
-    <h1>Hello, GitHub!</h1>
-    <h1>boo</h1>
+    <div class="navbar"> <!--navigation top bar-->
+        <a href="#home">Home</a>
+        <a href="#gallery">Gallery</a>
+        <a href="#contact">Contact</a>
+    </div>
+    <h1 class="heading">Hi, I'm Duncan Lee</h1> 
+    <hr class="line"> <!-- hr is a horizontal line -->
+    <h1 class="summary">Welcome to my portfolio!</h1>
+
+    <!--Images classed for css-->
+    <div class="img_container">
+        <img src="my-cat-murphy.jpg" style="width:720px;height:400px;">
+    </div>
+    <div class="img_container2">
+        <img src="fight.png" style="width:400px;height:700px;">
+    </div>
 </body>
 </html>
