@@ -1,0 +1,318 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+/* sets the default*/
+
+h1{ font-family: 'Trebuchet MS'; } /* fonts for h1 and div*/
+div{ font-family: 'Trebuchet MS';}
+
+body{
+    background-image: linear-gradient(to bottom, rgb(104, 73, 243) 0%, rgb(104, 73, 243) 25%, white 25%, white 60%,  rgb(104, 73, 243) 60%, rgb(104, 73, 243) 300%);
+    /*background colours, % is how much it covers from direction*/
+    min-height: 300vh; /*so theres no stripes*/
+}
+
+.navbar{ /* main navigation top bar */
+    overflow:hidden;
+    background-color: rgb(255, 255, 255);
+    padding: 10px 13px;
+    position: fixed; /*remains on screen despite scrolling*/
+    top: 0; /* at the top */
+    width: 100%;
+    z-index: 99; /*highest priority over images to stay fixed*/
+}
+
+.navbar a { /* words inside the navbar*/
+  float: left;
+  display: block;
+  color: rgb(104, 73, 243);
+  text-align: center;
+  padding: 10px 13px;
+  text-decoration: none;
+  font-size: 20px;
+  margin-left: 40px;
+}
+
+
+.heading {
+    font-size: 90px;
+    color: white;
+    margin-top: 450px;
+    margin-left:90px;
+}
+
+.line{
+    width: 80%;
+    height: 5px; /* thickness of line */
+    border: 0 none;
+    margin-left: 80px;
+    margin-top: 20px;
+    background-color: rgb(255, 255, 255);
+}
+
+.summary {
+    font-size: 45px;
+    color: rgb(255, 255, 255);
+    margin-top: 20px;
+    margin-left:140px;
+}
+
+/*
+.img_container {
+    margin-left:1100px;
+    margin-top: -500px
+} 
+
+.img_container2 {
+    margin-left:500px;
+    margin-top: 1000px
+}
+*/
+
+.murphyside {
+    margin-left:-120px;
+    margin-top: 1000px;
+
+}
+
+.murphypizza {
+    margin-left:1400px;
+    margin-top: -700px;
+}
+
+.murphystance {
+    margin-left: 1100px;
+    margin-top: -1853px;
+}
+
+.boxtl {
+    height:300px;
+    width:500px;
+    background:rgb(161, 178, 252);
+    margin: 100px;
+    margin-bottom: 100px;
+
+}
+
+
+.boxbl {
+    height:300px;
+    width:500px;
+    background:rgb(161, 178, 252);
+    margin: 100px;
+    margin-top: 0px;
+
+}
+
+.boxtr {
+    height:300px;
+    width:500px;
+    background:rgb(161, 178, 252);
+    margin: 700px;
+    margin-top: -800px;
+
+}
+
+.boxbr {
+    height:300px;
+    width:500px;
+    background:rgb(161, 178, 252);
+    margin: 700px;
+    margin-top: -600px;
+
+}
+
+.mainbox {
+    height:700px;
+    width:500px;
+    background:rgb(161, 178, 252);
+    margin: 1300px;
+    margin-top:-1400px;
+}
+
+.titletl {
+    font-size: 30px;
+    position:absolute;
+    color: rgb(104, 73, 243);
+    left: 90px;
+    top: 1250px;
+}
+
+.titlebl {
+    font-size: 30px;
+    position:absolute;
+    color: rgb(104, 73, 243);
+    left: 90px;
+    top: 1650px;
+}
+
+.titletr {
+    font-size: 30px;
+    position:absolute;
+    color: rgb(104, 73, 243);
+    left: 690px;
+    top: 1250px;
+}
+
+.titlebr {
+    font-size: 30px;
+    position:absolute;
+    color: rgb(104, 73, 243);
+    left: 690px;
+    top: 1650px;
+}
+
+.titlemain {
+    font-size: 30px;
+    position:absolute;
+    color: rgb(104, 73, 243);
+    left: 1290px;
+    top: 1650px;
+}
+
+.murphyfight {
+    position: absolute;
+    left:-20px;
+    top:3000px;
+}
+
+.murphystretch {
+    position: absolute;
+    right:0px;
+    top:2600px;
+}
+
+.murphyball {
+    position: absolute;
+    left:200px;
+    top:3100px;
+}
+
+.murphyleft {
+    position: absolute;
+    left:400px;
+    top:1750px;
+}
+
+.murphyright {
+    position: absolute;
+    left:1000px;
+    top:1750px;
+}
+
+.whitebox {
+    height:500px;
+    width:800px;
+    background:rgb(255, 255, 255);
+    position: absolute;
+    left:100px;
+    top:2200px;
+    z-index: -1;
+}
+
+.whitebox2 {
+    height:500px;
+    width:800px;
+    background:rgb(255, 255, 255);
+    position: absolute;
+    right:100px;
+    top:2200px;
+    z-index: -1;
+}
+
+.whitetitle {
+    font-size: 50px;
+    position:absolute;
+    color: rgb(255, 255, 255);
+    left: 100px;
+    top: 2710px;
+}
+
+.whitetitle2 {
+    font-size: 50px;
+    position:absolute;
+    color: rgb(255, 255, 255);
+    left: 1010px;
+    top: 2710px;
+}
+
+.desc {
+    font-size: 30px;
+    position:absolute;
+    color: rgb(255, 255, 255);
+    left: 100px;
+    top: 2800px;
+}
+
+.desc2 {
+    font-size: 30px;
+    position:absolute;
+    color: rgb(255, 255, 255);
+    left: 1010px;
+    top: 2800px;
+}
+
+.alevel1 {
+    position: absolute;
+    right:125px;
+    top:2225px;
+    z-index: -1;
+}
+
+.alevel2 {
+    position: absolute;
+    left:125px;
+    top:2225px;
+    z-index: -1;
+}
+
+
+.gcse1 {
+    position:absolute;
+    left:150px;
+    top:945px;
+
+}
+
+.gcse2 {
+    position:absolute;
+    left:750px;
+    top:945px;
+
+}
+
+.gcse4 {
+    position:absolute;
+    right:127px;
+    top:970px;
+
+}
+
+.alevelh {
+    position:absolute;
+    left:140px;
+    top:1335px;
+
+}
+
+.alevelk {
+    position:absolute;
+    left:360px;
+    top:1335px;
+
+}
+
+.alevelt {
+    position:absolute;
+    left:720px;
+    top:1335px;
+
+}
+
+.alevels {
+    position:absolute;
+    left:955px;
+    top:1335px;
+
+}
